@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    
+
+}
+
+.mi-clase{
+    font-family: 'Oswald', sans-serif;
+    color: #aaa196;
+    font-size: 800%;
+    text-align: center;
+    background-color: #FFECE3;
+
+}
+ 
+/* { 
+    background-color: crimson;
+} */
+body{
+     background-image: url(imagenes/9fc4bf780ba7ebabec9e28264f4ee043.jpg);
+  
+}
+.h1general{
+    text-align: center;
+    font-size: 2em;
+    color: #9b9389;
+    font-weight: bolder;
+}
+.descripcion{
+    color: #9b9389;
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+.trabajos{
+    font-size: 5mm;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(100, 160, 72);
+}
+.tipos{
+    font-size: 7mm;
+    line-height: 1mm;
+    color: #9b9389;;
+    font-weight: 1000;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+/*g*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.example{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin: 50px 0;
+    background-color: #c27e00;
+}
+
+.img8{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+/* FOTOS */
+.divindividualfoto{
+    margin-left: 70px;
+}
+.pindividualfoto{
+    color: #aaa196;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.generalfotos{
+ display: flex;
+ margin-left: 50px;
+ margin-top: 30px;
+
+}
+.img1{
+    width: 500px;
+    height: 320px;
+    border-radius: 15px;
+}
+.img2{
+    width: 320px;
+    height: 320px;
+    border-radius: 15px;
+}
+.img3{
+    width: 320px;
+    height: 320px;
+    border-radius: 15px;
+}
+.img4{
+    width: 420px;
+    height: 320px;
+    border-radius: 15px;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 300px;
+    background-color:#FFECE3;
+    color: #1d1d1d;
+    font-weight: bolder;
+    margin-top: 250px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+#fin{
+    font-family: 'Fjalla One', sans-serif;
+}
+.divfooter{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+    text-align: center;
+}
+.pfooter{
+    margin-left: 5px;
+}
+.imagenes1{
+    display: flex;
+    margin-left: 30px;
+    margin: 30px;
+}
+.imggeneral{
+    margin: 10px;
+    width: 350px;
+    height: 300px;
+}
+.pgeneral{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bolder;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .maps{
+    float: right;
+    margin-right: 150px;
+    margin-top: -200px; 
+}
+.daylist{
+    text-align: center;
+    margin: 50px;
+    font-family: 'Pacifico', cursive;
+}
+.p_list{
+    font-size: 1.2em;
+   
+}
+.bodyescaleras{
+    background-image: url(imagenes/background\ escalera.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.photo-grid-item :hover {
+    transform: scale(2);
+    transition: all 2s; 
+ }
+
+.navbar{
+    margin-top: -10px;
+   
+}
